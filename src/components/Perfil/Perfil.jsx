@@ -4,7 +4,7 @@ import style from './Perfil.module.css'
 export const Perfil = ({user}) =>{
   return(
   <div className={style.profile}>
-  <div className={style.descripcion}>
+  <div className={style.description}>
     <img
       src={user.avatar}
       alt={user.tag}

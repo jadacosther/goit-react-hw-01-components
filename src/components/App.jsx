@@ -5,9 +5,9 @@ const styleTest = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  fontSize: 40,
-  color: '#010101'
+  color: '#010101',
 }
+
 
 export const App = ({data}) => {
   return (
